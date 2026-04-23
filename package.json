@@ -1,0 +1,27 @@
+{
+  "name": "vanminh-tool-v3",
+  "version": "3.0.0",
+  "description": "Tool VIP FULL tối ưu mạnh, hỗ trợ tiếng Việt chuẩn",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src src/index.js",
+    "build": "npm install",
+    "prod": "NODE_ENV=production node src/index.js"
+  },
+  "keywords": ["vip", "tool", "api", "utf8", "vietnamese"],
+  "author": "VanMinh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
